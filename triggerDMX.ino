@@ -72,8 +72,7 @@ void setup() {
 
   DmxSimple.usePin(11);
   DmxSimple.maxChannel(16);
-
-  Serial.begin(9600);
+  
 }
 
 void loop() {
